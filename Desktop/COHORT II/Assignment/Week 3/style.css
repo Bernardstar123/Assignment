@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: gray;
+}
+
+.Class {
+  width: 240px;
+  display: inline-block;
+  display: inline-table;
+}
+label {
+  display: inline-block;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: maroon;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rosybrown;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: gray;
+  padding: 20px;
+  width: 40%;
+}
+
+footer {
+  display: block;
+}
